@@ -4,8 +4,11 @@ document.querySelector('#app').innerHTML = `
   <header id="navbar">
     <div class="container nav-container">
       <a href="#" class="logo flex items-center gap-sm">
-        <img src="/Picture1.jpg" alt="Logo">
-        <span class="text-lg" style="font-weight: 700; color: var(--clr-primary);">Reinstatement Expert</span>
+        <img src="/Edwin-silver-badge.png" alt="Logo">
+        <div style="line-height: 1.2;">
+          <div style="font-weight: 700; font-size: 1rem; color: var(--clr-primary);">Local SEO Expert</div>
+          <div style="font-weight: 500; font-size: 0.75rem; color: var(--clr-text-muted);">Google Business Profile Product Expert</div>
+        </div>
       </a>
       <nav class="nav-links">
         <a href="#services">Services</a>
@@ -92,31 +95,15 @@ document.querySelector('#app').innerHTML = `
            </div>
         </div>
 
-        <!-- Service 2: White Label -->
+
+
+        <!-- Service 2: Training -->
         <div class="service-block grid grid-cols-2 gap-xl">
            <div>
               <div style="border-radius: var(--border-radius-lg); overflow: hidden; box-shadow: var(--shadow-xl); border: 1px solid var(--clr-border);">
-                 <img src="/whitelabel-illustration.png" alt="White Label Image" style="width: 100%; height: auto; display: block; aspect-ratio: 4/3; object-fit: cover;">
+                 <img src="/consulting-illustration.png" alt="Training Image" style="width: 100%; height: auto; display: block; aspect-ratio: 4/3; object-fit: cover;">
               </div>
            </div>
-           <div class="flex flex-col gap-lg justify-center">
-              <div class="badge w-max" style="background-color: rgba(233, 178, 62, 0.1); color: var(--clr-secondary);">
-                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                 Agency Partnership
-              </div>
-              <h3 class="heading-md">White Label Services</h3>
-              <p class="text-muted text-lg">We collaborate ethically with agencies, offering white label solutions that prioritize confidentiality and integrity. Your clients remain *your* clients.</p>
-              <ul class="check-list">
-                 <li>Strict non-disclosure agreements (NDAs).</li>
-                 <li>We never pursue direct relationships with your clients.</li>
-                 <li>Seamlessly integrate our expertise into your agency offerings.</li>
-              </ul>
-              <a href="#contact" class="btn btn-secondary" style="align-self: flex-start; margin-top: 1rem;">Request A Free Quote</a>
-           </div>
-        </div>
-
-        <!-- Service 3: Training -->
-        <div class="service-block grid grid-cols-2 gap-xl">
            <div class="flex flex-col gap-lg justify-center">
               <div class="badge w-max" style="background-color: rgba(31, 41, 55, 0.1); color: var(--clr-dark);">
                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
@@ -131,11 +118,64 @@ document.querySelector('#app').innerHTML = `
               </ul>
               <a href="#contact" class="btn btn-primary" style="align-self: flex-start; margin-top: 1rem;">Enroll in Training</a>
            </div>
-           <div>
-              <div style="border-radius: var(--border-radius-lg); overflow: hidden; box-shadow: var(--shadow-xl); border: 1px solid var(--clr-border);">
-                 <img src="/consulting-illustration.png" alt="Training Image" style="width: 100%; height: auto; display: block; aspect-ratio: 4/3; object-fit: cover;">
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section" style="background: linear-gradient(135deg, #1E40AF 0%, #1A56DB 50%, #3F83F8 100%); color: white; position: relative; overflow: hidden;">
+      <div style="position: absolute; top: -50%; right: -20%; width: 600px; height: 600px; background: rgba(255,255,255,0.05); border-radius: 50%;"></div>
+      <div style="position: absolute; bottom: -30%; left: -10%; width: 400px; height: 400px; background: rgba(255,255,255,0.03); border-radius: 50%;"></div>
+      <div class="container" style="position: relative; z-index: 1;">
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 800px; margin: 0 auto; gap: 2rem;">
+          <img src="/PHOTO-2026-03-06-15-44-32.jpg.jpeg" alt="Edwin Chong" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 4px solid rgba(255,255,255,0.3); box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+          <div>
+            <h2 class="heading-lg" style="color: white; margin-bottom: 0.5rem;">Hi, I'm Edwin Chong</h2>
+            <p style="color: rgba(255,255,255,0.7); font-size: 1.125rem;">Local SEO Expert &amp; Google Product Expert</p>
+          </div>
+          <p style="color: rgba(255,255,255,0.85); font-size: 1.125rem; line-height: 1.8;">Based in Shah Alam, Selangor, Malaysia, I help businesses improve their visibility on Google Search and Google Maps through effective Local SEO strategies. I focus on optimizing Google Business Profile listings to help businesses attract more local customers and strengthen their digital presence.</p>
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; width: 100%; margin: 1rem 0; padding: 2rem 0; border-top: 1px solid rgba(255,255,255,0.15); border-bottom: 1px solid rgba(255,255,255,0.15);">
+            <div>
+              <div style="font-size: 2.5rem; font-weight: 800; color: var(--clr-secondary);">1000+</div>
+              <div style="font-size: 0.875rem; color: rgba(255,255,255,0.6);">Businesses Helped</div>
+            </div>
+            <div>
+              <div style="font-size: 2.5rem; font-weight: 800; color: var(--clr-secondary);">5+</div>
+              <div style="font-size: 0.875rem; color: rgba(255,255,255,0.6);">Years Experience</div>
+            </div>
+            <div>
+              <div style="font-size: 2.5rem; font-weight: 800; color: var(--clr-secondary);">✓</div>
+              <div style="font-size: 0.875rem; color: rgba(255,255,255,0.6);">Google Product Expert</div>
+            </div>
+          </div>
+          <p style="color: rgba(255,255,255,0.8); line-height: 1.8;">My expertise includes profile setup and optimization, suspension troubleshooting and recovery, local ranking strategies, review management, and aligning websites with local search signals. As an active contributor in the Google Product Experts Program, I earned the Product Expert badge by helping 1000+ businesses and marketers worldwide resolve complex listing issues.</p>
+          <p style="color: rgba(255,255,255,0.8); line-height: 1.8;">I also provide Local SEO and Google Business Profile training for businesses, organizations, corporate entities, and professionals. Organizations interested in Local SEO training are welcome to contact me for workshops or professional training sessions.</p>
+          <a href="#contact" class="btn" style="background: white; color: var(--clr-primary); font-weight: 700; margin-top: 1rem; padding: 1rem 2rem;">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GBP Insurance Section -->
+    <section class="section bg-white" style="position: relative;">
+      <div class="container">
+        <div style="background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 50%, #FDE68A 100%); border-radius: var(--border-radius-lg); padding: 4rem; position: relative; overflow: hidden; border: 1px solid rgba(233, 178, 62, 0.3);">
+          <div style="position: absolute; top: -40px; right: -40px; width: 200px; height: 200px; background: rgba(233, 178, 62, 0.15); border-radius: 50%;"></div>
+          <div style="position: absolute; bottom: -60px; left: -60px; width: 250px; height: 250px; background: rgba(233, 178, 62, 0.1); border-radius: 50%;"></div>
+          <div class="flex flex-col gap-lg" style="position: relative; z-index: 1;">
+              <div style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: rgba(180, 120, 0, 0.12); color: #92400E; border-radius: 50px; font-weight: 600; font-size: 0.875rem; width: fit-content;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Protection Plan
               </div>
-           </div>
+              <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <img src="/gbp-true-transparent-logo.png" alt="Google Business Profile Product Expert" style="height: 140px; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));">
+                <h2 class="heading-lg" style="color: #78350F; margin: 0;">Google Business Profile <span style="color: #92400E;">Insurance</span></h2>
+              </div>
+              <p style="color: #92400E; font-size: 1.125rem;">Protect your Google Business Profile with our comprehensive insurance service, covering unexpected suspensions, compliance issues, and profile disruptions.</p>
+              <p style="color: #78350F; opacity: 0.8;">Once your profile has been expertly audited and optimized, you can enroll immediately at a minimal rate, ensuring ongoing peace of mind.</p>
+              <p style="color: #78350F; opacity: 0.8;">For new clients with active profiles, we provide a thorough review and compliance adjustment, confirming all business information, categories, and content meet Google's guidelines before coverage begins.</p>
+              <p style="color: #78350F; opacity: 0.8;">With our insurance, business owners can focus on growth and operations while knowing their Google Business Profile is secured against potential issues, giving them confidence and an uninterrupted online presence.</p>
+              <a href="#contact" class="btn" style="background: #92400E; color: white; align-self: flex-start; margin-top: 0.5rem;">Get Protected</a>
+          </div>
         </div>
       </div>
     </section>
@@ -157,7 +197,7 @@ document.querySelector('#app').innerHTML = `
                    <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
                 </button>
                 <div class="faq-answer">
-                   <p>Reinstatement timelines vary depending on Google's backlog and the complexity of the suspension. Generally, it can take anywhere from 3 days to a few weeks. We expedite the process by ensuring all documentation is perfectly aligned with Google's guidelines before submission.</p>
+                   <p>Reinstatement timelines vary depending on Google's backlog and the complexity of the suspension. Generally, it can take anywhere from 7 days to a few weeks. We expedite the process by ensuring all documentation is perfectly aligned with Google's guidelines before submission.</p>
                 </div>
              </div>
              <div class="faq-item">
@@ -171,11 +211,11 @@ document.querySelector('#app').innerHTML = `
              </div>
              <div class="faq-item">
                 <button class="faq-question">
-                   Do you work with agencies?
+                   How do I know if my Google Business Profile is suspended?
                    <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
                 </button>
                 <div class="faq-answer">
-                   <p>Yes! We offer extensive white-label services for agencies. We sign non-disclosure agreements and operate completely behind the scenes so you can deliver expert GBP services under your own brand.</p>
+                   <p>If you received a soft suspension, your listing still appears on Google, but you can't edit or manage it. If you received a hard suspension, your profile is completely removed from Google Search and Maps, and customers won't be able to find you.</p>
                 </div>
              </div>
           </div>
@@ -196,7 +236,7 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 <div>
                   <div class="text-sm text-muted">Call us directly</div>
-                  <div style="font-weight: 600; font-size: 1.125rem;">+601159683538</div>
+                  <div style="font-weight: 600; font-size: 1.125rem;">+6011 009 9299</div>
                 </div>
               </div>
               <div class="flex items-center gap-md">
@@ -212,8 +252,7 @@ document.querySelector('#app').innerHTML = `
         </div>
 
         <div class="card" style="box-shadow: var(--shadow-xl); border: 1px solid var(--clr-border);">
-          <h3 class="heading-md" style="margin-bottom: 0.5rem;">Send Your Requirements</h3>
-          <p class="text-muted text-sm" style="margin-bottom: 1.5rem;">* Pay only after your suspended profile is successfully reinstated.</p>
+          <h3 class="heading-md" style="margin-bottom: 1.5rem;">Send Your Requirements</h3>
           <form class="flex flex-col gap-md" onsubmit="event.preventDefault(); const msg = 'Hi, I am ' + document.getElementById('firstName').value + ' ' + document.getElementById('lastName').value + ' (' + document.getElementById('email').value + '). I am reaching out regarding: ' + document.getElementById('service').value + '. Case Details: ' + document.getElementById('details').value; window.open('https://wa.me/601159683538?text=' + encodeURIComponent(msg), '_blank');">
             <div class="grid grid-cols-2 gap-md">
                <div class="flex flex-col gap-sm">
@@ -234,7 +273,7 @@ document.querySelector('#app').innerHTML = `
               <select id="service" class="form-input" style="appearance: none; background-image: url('data:image/svg+xml;utf8,<svg fill=%22none%22 stroke=%22currentColor%22 viewBox=%220 0 24 24%22 xmlns=%22http://www.w3.org/2000/svg%22><path stroke-linecap=%22round%22 stroke-linejoin=%22round%22 stroke-width=%222%22 d=%22M19 9l-7 7-7-7%22></path></svg>'); background-repeat: no-repeat; background-position: right 1rem center; background-size: 1em;">
                  <option>GBP Reinstatement</option>
                  <option>Consulting</option>
-                 <option>White Label Services</option>
+
                  <option>Local SEO Training</option>
               </select>
             </div>
@@ -253,7 +292,7 @@ document.querySelector('#app').innerHTML = `
     <div class="container grid grid-cols-2 gap-xl" style="margin-bottom: 3rem;">
        <div class="flex flex-col gap-md lg:pr-10">
           <a href="#" class="logo flex items-center gap-sm">
-            <span class="text-lg" style="font-weight: 700; color: var(--clr-white);">Reinstatement Expert</span>
+            <span class="text-lg" style="font-weight: 700; color: var(--clr-white);">Local SEO Expert</span>
           </a>
           <p class="text-sm text-gray-400">Secure your business profile against suspensions and soar in local rankings with our expert SEO services.</p>
        </div>
@@ -263,7 +302,7 @@ document.querySelector('#app').innerHTML = `
              <a href="#" class="text-sm text-gray-400 footer-link">Reinstatement</a>
              <a href="#" class="text-sm text-gray-400 footer-link">Local SEO</a>
              <a href="#" class="text-sm text-gray-400 footer-link">Consulting</a>
-             <a href="#" class="text-sm text-gray-400 footer-link">White Label</a>
+
           </div>
           <div class="flex flex-col gap-sm">
              <h4 style="color: var(--clr-white); margin-bottom: 0.5rem;">Company</h4>
@@ -274,7 +313,7 @@ document.querySelector('#app').innerHTML = `
        </div>
     </div>
     <div class="container text-center text-sm text-gray-500" style="border-top: 1px solid var(--clr-dark-lighter); padding-top: 2rem;">
-      <p>&copy; ${new Date().getFullYear()} Reinstatement Expert. All rights reserved.</p>
+      <p>&copy; ${new Date().getFullYear()} Local SEO Expert. All rights reserved.</p>
     </div>
   </footer>
 `
