@@ -33,7 +33,7 @@ document.querySelector('#app').innerHTML = `
             Secure Your Business Profile Against <span class="text-gradient">Suspensions</span>
           </h1>
           <p class="text-lg text-muted">
-            As a Google Business Product Expert, specialising in Google Business Profiles since 2020. I specialize in reinstatements and Local SEO. Pay only after your suspended profile is successfully reinstated.
+            Local SEO Expert | Google Product Expert<br><br>Specialist in GBP recovery, suspension prevention, and Local Pack Ranking Optimization to drive more local customers to your business.
           </p>
           <div class="flex items-center gap-md" style="flex-wrap: wrap; margin-top: 1rem;">
             <a href="#contact" class="btn btn-primary">Restore My Profile</a>
@@ -289,14 +289,14 @@ document.querySelector('#app').innerHTML = `
   </main>
 
   <footer style="background-color: var(--clr-dark); color: var(--clr-light); padding: 4rem 0 2rem; border-top: 1px solid var(--clr-dark-lighter);">
-    <div class="container grid grid-cols-2 gap-xl" style="margin-bottom: 3rem;">
+    <div class="container" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin-bottom: 3rem;">
        <div class="flex flex-col gap-md lg:pr-10">
           <a href="#" class="logo flex items-center gap-sm">
             <span class="text-lg" style="font-weight: 700; color: var(--clr-white);">Local SEO Expert</span>
           </a>
-          <p class="text-sm text-gray-400">Secure your business profile against suspensions and soar in local rankings with our expert SEO services.</p>
+          <p class="text-sm text-gray-400">Our team will performs a comprehensive Google Business Profile audit, ensuring your profile is fully optimized and secure. Once we resolve any issues, your listing is less likely to face suspension, except in cases of account restrictions or changes made after our intervention.</p>
        </div>
-       <div class="flex gap-xl justify-end">
+       <div class="flex gap-xl justify-center">
           <div class="flex flex-col gap-sm">
              <h4 style="color: var(--clr-white); margin-bottom: 0.5rem;">Services</h4>
              <a href="#" class="text-sm text-gray-400 footer-link">Reinstatement</a>
@@ -310,6 +310,9 @@ document.querySelector('#app').innerHTML = `
              <a href="#" class="text-sm text-gray-400 footer-link">Contact</a>
              <a href="#" class="text-sm text-gray-400 footer-link">Privacy Policy</a>
           </div>
+       </div>
+       <div style="display: flex; align-items: center; justify-content: flex-end;">
+          <img src="/gbp-true-transparent-logo.png" alt="Google Business Profile Product Expert" style="max-height: 140px; opacity: 0.9;">
        </div>
     </div>
     <div class="container text-center text-sm text-gray-500" style="border-top: 1px solid var(--clr-dark-lighter); padding-top: 2rem;">
