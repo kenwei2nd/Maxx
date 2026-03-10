@@ -236,7 +236,7 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 <div>
                   <div class="text-sm text-muted">Call us directly</div>
-                  <div style="font-weight: 600; font-size: 1.125rem;">+6011 009 9299</div>
+                  <div style="font-weight: 600; font-size: 1.125rem;">+6011 1009 9299</div>
                 </div>
               </div>
               <div class="flex items-center gap-md">
