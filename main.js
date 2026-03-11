@@ -253,7 +253,7 @@ document.querySelector('#app').innerHTML = `
 
         <div class="card" style="box-shadow: var(--shadow-xl); border: 1px solid var(--clr-border);">
           <h3 class="heading-md" style="margin-bottom: 1.5rem;">Send Your Requirements</h3>
-          <form class="flex flex-col gap-md" onsubmit="event.preventDefault(); const msg = 'Hi, I am ' + document.getElementById('firstName').value + ' ' + document.getElementById('lastName').value + ' (' + document.getElementById('email').value + '). I am reaching out regarding: ' + document.getElementById('service').value + '. Case Details: ' + document.getElementById('details').value; window.open('https://wa.me/601159683538?text=' + encodeURIComponent(msg), '_blank');">
+          <form class="flex flex-col gap-md" onsubmit="event.preventDefault(); const msg = 'Hi, I am ' + document.getElementById('firstName').value + ' ' + document.getElementById('lastName').value + ' (' + document.getElementById('email').value + '). I am reaching out regarding: ' + document.getElementById('service').value + '. Case Details: ' + document.getElementById('details').value; window.open('https://wa.me/601110099299?text=' + encodeURIComponent(msg), '_blank');">
             <div class="grid grid-cols-2 gap-md">
                <div class="flex flex-col gap-sm">
                  <label for="firstName" class="text-sm font-semibold">First Name</label>
