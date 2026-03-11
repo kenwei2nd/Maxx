@@ -73,7 +73,7 @@ document.querySelector('#app').innerHTML = `
         </div>
         
         <!-- Service 1: Consulting -->
-        <div class="service-block grid grid-cols-2 gap-xl">
+        <div id="consulting" class="service-block grid grid-cols-2 gap-xl">
            <div class="flex flex-col gap-lg justify-center">
               <div class="badge w-max">
                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
@@ -98,7 +98,7 @@ document.querySelector('#app').innerHTML = `
 
 
         <!-- Service 2: Training -->
-        <div class="service-block grid grid-cols-2 gap-xl">
+        <div id="training" class="service-block grid grid-cols-2 gap-xl">
            <div>
               <div style="border-radius: var(--border-radius-lg); overflow: hidden; box-shadow: var(--shadow-xl); border: 1px solid var(--clr-border);">
                  <img src="/consulting-illustration.png" alt="Training Image" style="width: 100%; height: auto; display: block; aspect-ratio: 4/3; object-fit: cover;">
@@ -299,16 +299,15 @@ document.querySelector('#app').innerHTML = `
        <div class="footer-links-wrapper flex gap-xl justify-center">
           <div class="flex flex-col gap-sm">
              <h4 style="color: var(--clr-white); margin-bottom: 0.5rem;">Services</h4>
-             <a href="#" class="text-sm text-gray-400 footer-link">Reinstatement</a>
-             <a href="#" class="text-sm text-gray-400 footer-link">Local SEO</a>
-             <a href="#" class="text-sm text-gray-400 footer-link">Consulting</a>
+             <a href="#consulting" class="text-sm text-gray-400 footer-link">Reinstatement</a>
+             <a href="#consulting" class="text-sm text-gray-400 footer-link">Consulting</a>
+             <a href="#training" class="text-sm text-gray-400 footer-link">Local SEO</a>
 
           </div>
           <div class="flex flex-col gap-sm">
              <h4 style="color: var(--clr-white); margin-bottom: 0.5rem;">Company</h4>
-             <a href="#" class="text-sm text-gray-400 footer-link">About Us</a>
-             <a href="#" class="text-sm text-gray-400 footer-link">Contact</a>
-             <a href="#" class="text-sm text-gray-400 footer-link">Privacy Policy</a>
+             <a href="#about" class="text-sm text-gray-400 footer-link">About Us</a>
+             <a href="#contact" class="text-sm text-gray-400 footer-link">Contact</a>
           </div>
        </div>
        <div style="display: flex; align-items: center; justify-content: flex-end;">
