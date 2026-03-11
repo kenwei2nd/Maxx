@@ -505,3 +505,39 @@ header.scrolled {
 .faq-item.active .faq-icon {
   transform: rotate(180deg);
 }
+
+/* ===== Mobile-Only Overrides ===== */
+@media (max-width: 767px) {
+
+  /* 1. Reduce hero top padding & remove full-viewport height */
+  .hero {
+    padding-top: calc(70px + var(--spacing-xl));
+    min-height: auto;
+  }
+
+  /* 2. Stack GBP Insurance logo + heading vertically */
+  .gbp-insurance-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .gbp-insurance-card {
+    padding: 2rem 1.5rem;
+  }
+
+  /* 3. Footer: single-column stacked layout */
+  footer .container {
+    grid-template-columns: 1fr !important;
+  }
+
+  footer .container>div:last-child {
+    justify-content: center;
+  }
+
+  /* Stack Services + Company columns vertically */
+  .footer-links-wrapper {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+}

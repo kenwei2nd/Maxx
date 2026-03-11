@@ -158,7 +158,7 @@ document.querySelector('#app').innerHTML = `
     <!-- GBP Insurance Section -->
     <section class="section bg-white" style="position: relative;">
       <div class="container">
-        <div style="background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 50%, #FDE68A 100%); border-radius: var(--border-radius-lg); padding: 4rem; position: relative; overflow: hidden; border: 1px solid rgba(233, 178, 62, 0.3);">
+        <div class="gbp-insurance-card" style="background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 50%, #FDE68A 100%); border-radius: var(--border-radius-lg); padding: 4rem; position: relative; overflow: hidden; border: 1px solid rgba(233, 178, 62, 0.3);">
           <div style="position: absolute; top: -40px; right: -40px; width: 200px; height: 200px; background: rgba(233, 178, 62, 0.15); border-radius: 50%;"></div>
           <div style="position: absolute; bottom: -60px; left: -60px; width: 250px; height: 250px; background: rgba(233, 178, 62, 0.1); border-radius: 50%;"></div>
           <div class="flex flex-col gap-lg" style="position: relative; z-index: 1;">
@@ -166,7 +166,7 @@ document.querySelector('#app').innerHTML = `
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 Protection Plan
               </div>
-              <div style="display: flex; align-items: center; gap: 1.5rem;">
+              <div class="gbp-insurance-header" style="display: flex; align-items: center; gap: 1.5rem;">
                 <img src="/gbp-true-transparent-logo.png" alt="Google Business Profile Product Expert" style="height: 140px; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));">
                 <h2 class="heading-lg" style="color: #78350F; margin: 0;">Google Business Profile <span style="color: #92400E;">Insurance</span></h2>
               </div>
@@ -296,7 +296,7 @@ document.querySelector('#app').innerHTML = `
           </a>
           <p class="text-sm text-gray-400">Our team will performs a comprehensive Google Business Profile audit, ensuring your profile is fully optimized and secure. Once we resolve any issues, your listing is less likely to face suspension, except in cases of account restrictions or changes made after our intervention.</p>
        </div>
-       <div class="flex gap-xl justify-center">
+       <div class="footer-links-wrapper flex gap-xl justify-center">
           <div class="flex flex-col gap-sm">
              <h4 style="color: var(--clr-white); margin-bottom: 0.5rem;">Services</h4>
              <a href="#" class="text-sm text-gray-400 footer-link">Reinstatement</a>
